@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sound Deck 🔊 </title>
+    <meta charset="UTF-8">
+    <style>
+        .button {
+            width: 300px;
+            height: 100px;
+            margin: 5px;
+            background-color: #333;
+            color: #fff;
+            font-size: 16px;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .button:active {
+            background-color: #666;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sound Deck 🔊</h1>
+    <div id="matrix">
+      <button class="button" onclick="playSound('https://vpsolution.cz/sound_deck/sound/coze.mp3')">Cože?</button>
+        <button class="button" onclick="playSound('https://vpsolution.cz/sound_deck/sound/ja_nevim.mp3')">Já nevím</button>
+        <button class="button" onclick="playSound('https://vpsolution.cz/sound_deck/sound/no_jiste.mp3')">No jistě</button>
+        <button class="button" onclick="playSound('https://vpsolution.cz/sound_deck/sound/jak_se_to_vyjadrujete.mp3')">Jak se to vyjadřujete?</button>
+        <button class="button" onclick="playSound('https://vpsolution.cz/sound_deck/sound/jak_to_ze_opoustite_sluzbu.mp3')">Jak to že opouštíte službu?</button>
+        <button class="button" onclick="playSound('https://vpsolution.cz/sound_deck/sound/neumite_se_postavit_nasledkum.mp3')">Neumíte se postavit svým následkům?</button>
+        <button class="button" onclick="playSound('https://vpsolution.cz/sound_deck/sound/kriste_co_je_to_za_cloveka.mp3')">Kriste, co je to za člověka?</button>
+         <button class="button" onclick="playSound('https://vpsolution.cz/sound_deck/sound/chce_se_mi_vracet.mp3')">Chce se mi zvracet</button>
+         <button class="button" onclick="playSound('https://vpsolution.cz/sound_deck/sound/zase_se_mi_chce_zvracet.mp3')">Zase se mi chce zvracet</button>
+          <button class="button" onclick="playSound('https://vpsolution.cz/sound_deck/sound/repete.mp3')">Repete</button>
+
+        <!-- Přidej další tlačítka podle potřeby -->
+    </div>
+
+    <script>
+        function playSound(soundFile) {
+            var audio = new Audio(soundFile);
+            audio.play();
+        }
+    </script>
+</body>
+</html>
