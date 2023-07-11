@@ -3,15 +3,24 @@ Sound Deck board with legendary catchphrases from Movies. It is build as simple 
 
 
 ## Project structure
-- **sound**
+**sound**
 > folder where all mp3 media used in project are stored
 
-- sound_deck.html
+**sound_deck.html**
 > main file you can run
 
 
-## Project structure
+## How to prepare **sound**
+Step-by-Step guide how to create your own `.mp3` sound
 
-[YoutubeToMp3 converter](https://ytmp3.nu/9A1f/)
+1) Find your video on [Youtube](https://www.youtube.com/) and copy video URL
+2) Open [YoutubeToMp3 converter](https://ytmp3.nu/9A1f/) , paste the video URL and press **Covert** button
+3) Save converted `.mp3` file
+4) If it is necesarry open the [MP3 online editor](https://mp3cut.net/) to adjust `.mp3` file
 
-[MP3 online editor](https://mp3cut.net/)
+----
+
+
+## References
+- [YoutubeToMp3 converter](https://ytmp3.nu/9A1f/)
+- [MP3 online editor](https://mp3cut.net/)
