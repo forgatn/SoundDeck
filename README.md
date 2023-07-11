@@ -7,7 +7,11 @@ Sound Deck board with legendary catchphrases from Movies. It is build as simple 
 > folder where all mp3 media used in project are stored
 
 **sound_deck.html**
-> main file you can run
+> main file you can run via web browser
+
+
+## Demo
+You can access working Sound Deck [here]([url](https://vpsolution.cz/sound_deck/sound_deck.html))
 
 
 ## How to prepare **sound**
