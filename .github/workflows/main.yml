@@ -13,4 +13,4 @@ jobs:
       with:
         server: sasanka.endora.cz
         username: forgatngithub
-        password: ${{ secrets.ftp_password }}
+        password: ${{FTPPASSWORD}}
