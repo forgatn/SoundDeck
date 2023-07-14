@@ -1,11 +1,10 @@
 # SoundDeck
 Sound Deck board with legendary catchphrases from Movies. It is build as simple HTML page with Tile design. Each tile has mp3 attached. Whenever button is pressed the sound is played.
 
-
 ## Project structure
 
 **assets**
-> folder where all stored JS / CSS / Image files
+> folder where all stored JS / CSS / Image files / ...
 
 **sound**
 > folder where all mp3 media used in project are stored
