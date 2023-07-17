@@ -4,7 +4,7 @@ Sound Deck board with legendary catchphrases from Movies. It is build as simple 
 ## Project structure
 
 **assets**
-> folder where all stored JS / CSS / Image files / ...
+> folder where all stored JS / CSS / Image files / ... etc
 
 **sound**
 > folder where all mp3 media used in project are stored
