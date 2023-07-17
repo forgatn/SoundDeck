@@ -1,2 +1,3 @@
 # Init Git Ignore file
+# Every exclusion is congigured per new row
 main.yml
