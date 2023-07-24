@@ -49,3 +49,6 @@ Step-by-Step guide how to create your own `.mp3` sound
 ## References
 - [YoutubeToMp3 converter](https://ytmp3.nu/9A1f/)
 - [MP3 online editor](https://mp3cut.net/)
+
+## Issues
+Please feel free to report issuess in [GitHub](https://github.com/forgatn/SoundDeck/issues) or via email [forgatn@gmail.com](forgatn@gmail.com)
